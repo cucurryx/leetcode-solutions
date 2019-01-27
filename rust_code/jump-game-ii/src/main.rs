@@ -1,13 +1,17 @@
 // impl Solution {
     pub fn jump(nums: Vec<i32>) -> i32 {
-        return "hello world"
+        return 0
     }
 // }
 
 #[test]
 fn test_jump() {
-    let nums = vec![2,3,1,1,4];
-    assert_eq!(jump(nums), 2);
+    let mut s = String::from("hello");
+
+let r1 = &mut s;
+let r2 = &mut s;
+
+// println!("{}, {}", r1, r2);
 }
 
 fn main() {
